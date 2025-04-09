@@ -1,0 +1,11 @@
+1. Executables and Libraries:
+    . CMake produces two types of outputs:
+        - Executables, using the command: add_executable(executable_name file1.cpp ...)
+        - Libraries, using the command: add_library(lib_name STATIC/SHARED lib.cpp)
+
+2. STATIC and SHARED Libraries:
+    . STATIC libraries have the ".a" file extension.
+    . STATIC libraries are compiled directly into whatever code links to them.
+
+    . SHARED libraries have the ".dll" or ".so" file extensions.
+    . SHARED (or DYNAMIC) libraries are linked at runtime.

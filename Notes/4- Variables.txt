@@ -1,0 +1,2 @@
+1. Variables:
+    . Variables are used using the following syntax: ${VARIABLE_NAME}

@@ -3,7 +3,7 @@
 
 # Relative path conversion top directories.
 set(CMAKE_RELATIVE_PATH_TOP_SOURCE "C:/Users/Choaib ELMADI/Documents/D.I.F.Y/3. C - CPP Programming/7. Getting Started with CMake")
-set(CMAKE_RELATIVE_PATH_TOP_BINARY "C:/Users/Choaib ELMADI/Documents/D.I.F.Y/3. C - CPP Programming/7. Getting Started with Cmake/build")
+set(CMAKE_RELATIVE_PATH_TOP_BINARY "C:/Users/Choaib ELMADI/Documents/D.I.F.Y/3. C - CPP Programming/7. Getting Started with CMake/build")
 
 # Force unix paths in dependencies.
 set(CMAKE_FORCE_UNIX_PATHS 1)

@@ -56,7 +56,7 @@ EQUALS = =
 CMAKE_SOURCE_DIR = "C:/Users/Choaib ELMADI/Documents/D.I.F.Y/3. C - CPP Programming/7. Getting Started with CMake"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "C:/Users/Choaib ELMADI/Documents/D.I.F.Y/3. C - CPP Programming/7. Getting Started with Cmake/build"
+CMAKE_BINARY_DIR = "C:/Users/Choaib ELMADI/Documents/D.I.F.Y/3. C - CPP Programming/7. Getting Started with CMake/build"
 
 # Include any dependencies generated for this target.
 include CMakeFiles/main.dir/depend.make
@@ -75,7 +75,7 @@ CMakeFiles/main.dir/codegen:
 CMakeFiles/main.dir/main.cpp.obj: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/main.cpp.obj: C:/Users/Choaib\ ELMADI/Documents/D.I.F.Y/3.\ C\ -\ CPP\ Programming/7.\ Getting\ Started\ with\ CMake/main.cpp
 CMakeFiles/main.dir/main.cpp.obj: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:/Users/Choaib ELMADI/Documents/D.I.F.Y/3. C - CPP Programming/7. Getting Started with Cmake/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/main.dir/main.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:/Users/Choaib ELMADI/Documents/D.I.F.Y/3. C - CPP Programming/7. Getting Started with CMake/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/main.dir/main.cpp.obj"
 	C:/msys64/mingw64/bin/g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/main.cpp.obj -MF CMakeFiles/main.dir/main.cpp.obj.d -o CMakeFiles/main.dir/main.cpp.obj -c "C:/Users/Choaib ELMADI/Documents/D.I.F.Y/3. C - CPP Programming/7. Getting Started with CMake/main.cpp"
 
 CMakeFiles/main.dir/main.cpp.i: cmake_force
@@ -97,7 +97,7 @@ main.exe: CMakeFiles/main.dir/main.cpp.obj
 main.exe: CMakeFiles/main.dir/build.make
 main.exe: CMakeFiles/main.dir/linkLibs.rsp
 main.exe: CMakeFiles/main.dir/objects1.rsp
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir="C:/Users/Choaib ELMADI/Documents/D.I.F.Y/3. C - CPP Programming/7. Getting Started with Cmake/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable main.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir="C:/Users/Choaib ELMADI/Documents/D.I.F.Y/3. C - CPP Programming/7. Getting Started with CMake/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable main.exe"
 	"C:/Program Files/CMake/bin/cmake.exe" -E rm -f CMakeFiles/main.dir/objects.a
 	C:/msys64/mingw64/bin/ar.exe qc CMakeFiles/main.dir/objects.a @CMakeFiles/main.dir/objects1.rsp
 	C:/msys64/mingw64/bin/g++.exe -g -Wl,--whole-archive CMakeFiles/main.dir/objects.a -Wl,--no-whole-archive -o main.exe -Wl,--out-implib,libmain.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles/main.dir/linkLibs.rsp
@@ -111,6 +111,6 @@ CMakeFiles/main.dir/clean:
 .PHONY : CMakeFiles/main.dir/clean
 
 CMakeFiles/main.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "C:/Users/Choaib ELMADI/Documents/D.I.F.Y/3. C - CPP Programming/7. Getting Started with CMake" "C:/Users/Choaib ELMADI/Documents/D.I.F.Y/3. C - CPP Programming/7. Getting Started with CMake" "C:/Users/Choaib ELMADI/Documents/D.I.F.Y/3. C - CPP Programming/7. Getting Started with Cmake/build" "C:/Users/Choaib ELMADI/Documents/D.I.F.Y/3. C - CPP Programming/7. Getting Started with Cmake/build" "C:/Users/Choaib ELMADI/Documents/D.I.F.Y/3. C - CPP Programming/7. Getting Started with Cmake/build/CMakeFiles/main.dir/DependInfo.cmake" "--color=$(COLOR)"
+	$(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "C:/Users/Choaib ELMADI/Documents/D.I.F.Y/3. C - CPP Programming/7. Getting Started with CMake" "C:/Users/Choaib ELMADI/Documents/D.I.F.Y/3. C - CPP Programming/7. Getting Started with CMake" "C:/Users/Choaib ELMADI/Documents/D.I.F.Y/3. C - CPP Programming/7. Getting Started with CMake/build" "C:/Users/Choaib ELMADI/Documents/D.I.F.Y/3. C - CPP Programming/7. Getting Started with CMake/build" "C:/Users/Choaib ELMADI/Documents/D.I.F.Y/3. C - CPP Programming/7. Getting Started with CMake/build/CMakeFiles/main.dir/DependInfo.cmake" "--color=$(COLOR)"
 .PHONY : CMakeFiles/main.dir/depend
 

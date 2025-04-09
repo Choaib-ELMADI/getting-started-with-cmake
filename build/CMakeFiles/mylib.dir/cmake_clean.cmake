@@ -1,7 +1,9 @@
 file(REMOVE_RECURSE
   "CMakeFiles/mylib.dir/lib.cpp.obj"
   "CMakeFiles/mylib.dir/lib.cpp.obj.d"
-  "libmylib.a"
+  "libmylib.dll"
+  "libmylib.dll.a"
+  "libmylib.dll.manifest"
   "libmylib.pdb"
 )
 
