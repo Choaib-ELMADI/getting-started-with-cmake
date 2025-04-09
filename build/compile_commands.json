@@ -1,14 +1,14 @@
 [
 {
   "directory": "C:/Users/Choaib ELMADI/Documents/D.I.F.Y/3. C - CPP Programming/7. Getting Started with CMake/build",
-  "command": "C:/msys64/mingw64/bin/g++.exe   -g -o CMakeFiles/main.dir/main.cpp.obj -c \"C:/Users/Choaib ELMADI/Documents/D.I.F.Y/3. C - CPP Programming/7. Getting Started with CMake/main.cpp\"",
-  "file": "C:/Users/Choaib ELMADI/Documents/D.I.F.Y/3. C - CPP Programming/7. Getting Started with CMake/main.cpp",
-  "output": "CMakeFiles/main.dir/main.cpp.obj"
+  "command": "C:/msys64/mingw64/bin/g++.exe   -g -o CMakeFiles/mylib.dir/lib.cpp.obj -c \"C:/Users/Choaib ELMADI/Documents/D.I.F.Y/3. C - CPP Programming/7. Getting Started with CMake/lib.cpp\"",
+  "file": "C:/Users/Choaib ELMADI/Documents/D.I.F.Y/3. C - CPP Programming/7. Getting Started with CMake/lib.cpp",
+  "output": "CMakeFiles/mylib.dir/lib.cpp.obj"
 },
 {
   "directory": "C:/Users/Choaib ELMADI/Documents/D.I.F.Y/3. C - CPP Programming/7. Getting Started with CMake/build",
-  "command": "C:/msys64/mingw64/bin/g++.exe -Dmylib_EXPORTS  -g -o CMakeFiles/mylib.dir/lib.cpp.obj -c \"C:/Users/Choaib ELMADI/Documents/D.I.F.Y/3. C - CPP Programming/7. Getting Started with CMake/lib.cpp\"",
-  "file": "C:/Users/Choaib ELMADI/Documents/D.I.F.Y/3. C - CPP Programming/7. Getting Started with CMake/lib.cpp",
-  "output": "CMakeFiles/mylib.dir/lib.cpp.obj"
+  "command": "C:/msys64/mingw64/bin/g++.exe   -g -o CMakeFiles/main.dir/main.cpp.obj -c \"C:/Users/Choaib ELMADI/Documents/D.I.F.Y/3. C - CPP Programming/7. Getting Started with CMake/main.cpp\"",
+  "file": "C:/Users/Choaib ELMADI/Documents/D.I.F.Y/3. C - CPP Programming/7. Getting Started with CMake/main.cpp",
+  "output": "CMakeFiles/main.dir/main.cpp.obj"
 }
 ]

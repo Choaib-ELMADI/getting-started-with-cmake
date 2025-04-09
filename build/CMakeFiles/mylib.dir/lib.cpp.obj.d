@@ -129,4 +129,5 @@ CMakeFiles/mylib.dir/lib.cpp.obj: \
  C:/msys64/mingw64/include/c++/12.2.0/bits/basic_ios.tcc \
  C:/msys64/mingw64/include/c++/12.2.0/bits/ostream.tcc \
  C:/msys64/mingw64/include/c++/12.2.0/istream \
- C:/msys64/mingw64/include/c++/12.2.0/bits/istream.tcc
+ C:/msys64/mingw64/include/c++/12.2.0/bits/istream.tcc \
+ C:/Users/Choaib\ ELMADI/Documents/D.I.F.Y/3.\ C\ -\ CPP\ Programming/7.\ Getting\ Started\ with\ CMake/lib.h

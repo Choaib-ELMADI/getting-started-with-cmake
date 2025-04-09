@@ -1,0 +1,3 @@
+1. Using Project Libraries:
+    . Linking our executable with its libraries is an important thing to do.
+    . It's done using the command: target_link_libraries(${PROJECT_NAME} my_lib_name)
