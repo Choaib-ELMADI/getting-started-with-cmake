@@ -1,0 +1,12 @@
+1. CMakeLists.txt File:
+    . The first step is to create a CMakeLists.txt file.
+    . This file contains the following:
+        - The minimum required version of CMake
+        - The project name
+        - The files to be executed (main.cpp, ...)
+
+2. Build a CMake Project:
+    . The recommended way to build a CMake project is to create a 'build' directory for all the build outputs.
+    . Build the files -inside this directory- using the command: cmake ..
+    . Build the project by running the command: make
+    . Run the project using the command: ./PROJECT_NAME. Note that the name 'PROJECT_NAME' was declared in the CMakeLists.txt file.

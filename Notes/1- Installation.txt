@@ -1,0 +1,19 @@
+1. CMake Installation:
+    * Linux Installation:
+        . Use this command: sudo apt install cmake
+
+    * Windows Installation:
+        . Visit this link: https://cmake.org/download/
+        . Download the desired distribution
+        . Execute the downloaded file
+
+2. Make Installation:
+    . Run Windows PowerShell
+    . Run this command: Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
+    . Run this other command: Invoke-RestMethod -Uri https://get.scoop.sh | Invoke-Expression
+    . Run this command: scoop bucket add main
+    . Run this other command: scoop install main/make
+
+3. Installed CMake and Make Versions:
+    . Use this command to check the installed CMake version: cmake --version
+    . Use this command to check the installed Make version: make --version

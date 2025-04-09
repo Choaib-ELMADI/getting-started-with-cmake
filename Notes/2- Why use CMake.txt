@@ -1,0 +1,4 @@
+1. CMake, Makefiles and Make?
+    . CMake makes or produces Makefiles.
+    . Makefiles are used to build projects. They contain some commands to be executed.
+    . Make is a tool used to run these Makefiles.
