@@ -1,0 +1,9 @@
+> cmake_minimum_required
+> project
+> add_executable
+> add_library
+> add_subdirectory
+> target_link_libraries
+> target_include_directories
+> find_package
+> set

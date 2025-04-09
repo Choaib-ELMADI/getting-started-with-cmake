@@ -1,0 +1,8 @@
+1. Installation
+2. Why use CMake?
+3. Quickstart
+4. Variables
+5. Executables & Libraries
+6. Internal Libraries
+7. Sub-directories
+8. External Libraries
