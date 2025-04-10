@@ -1,0 +1,2 @@
+C:/msys64/mingw64/bin/ar.exe qc libfmtd.a CMakeFiles/fmt.dir/src/format.cc.obj CMakeFiles/fmt.dir/src/os.cc.obj
+C:/msys64/mingw64/bin/ranlib.exe libfmtd.a

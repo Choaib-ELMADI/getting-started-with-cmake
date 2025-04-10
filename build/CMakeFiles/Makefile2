@@ -64,22 +64,45 @@ CMAKE_BINARY_DIR = "C:/Users/Choaib ELMADI/Documents/D.I.F.Y/3. C - CPP Programm
 
 # The main recursive "all" target.
 all: CMakeFiles/main.dir/all
+all: fmt/all
 all: lib/all
 .PHONY : all
 
 # The main recursive "codegen" target.
 codegen: CMakeFiles/main.dir/codegen
+codegen: fmt/codegen
 codegen: lib/codegen
 .PHONY : codegen
 
 # The main recursive "preinstall" target.
+preinstall: fmt/preinstall
 preinstall: lib/preinstall
 .PHONY : preinstall
 
 # The main recursive "clean" target.
 clean: CMakeFiles/main.dir/clean
+clean: fmt/clean
 clean: lib/clean
 .PHONY : clean
+
+#=============================================================================
+# Directory level rules for directory fmt
+
+# Recursive "all" directory target.
+fmt/all: fmt/CMakeFiles/fmt.dir/all
+.PHONY : fmt/all
+
+# Recursive "codegen" directory target.
+fmt/codegen: fmt/CMakeFiles/fmt.dir/codegen
+.PHONY : fmt/codegen
+
+# Recursive "preinstall" directory target.
+fmt/preinstall:
+.PHONY : fmt/preinstall
+
+# Recursive "clean" directory target.
+fmt/clean: fmt/CMakeFiles/fmt.dir/clean
+.PHONY : fmt/clean
 
 #=============================================================================
 # Directory level rules for directory lib
@@ -104,15 +127,16 @@ lib/clean: lib/CMakeFiles/mylib.dir/clean
 # Target rules for target CMakeFiles/main.dir
 
 # All Build rule for target.
+CMakeFiles/main.dir/all: fmt/CMakeFiles/fmt.dir/all
 CMakeFiles/main.dir/all: lib/CMakeFiles/mylib.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="C:/Users/Choaib ELMADI/Documents/D.I.F.Y/3. C - CPP Programming/7. Getting Started with CMake/build/CMakeFiles" --progress-num=1,2 "Built target main"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="C:/Users/Choaib ELMADI/Documents/D.I.F.Y/3. C - CPP Programming/7. Getting Started with CMake/build/CMakeFiles" --progress-num=4,5 "Built target main"
 .PHONY : CMakeFiles/main.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/main.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "C:/Users/Choaib ELMADI/Documents/D.I.F.Y/3. C - CPP Programming/7. Getting Started with CMake/build/CMakeFiles" 4
+	$(CMAKE_COMMAND) -E cmake_progress_start "C:/Users/Choaib ELMADI/Documents/D.I.F.Y/3. C - CPP Programming/7. Getting Started with CMake/build/CMakeFiles" 7
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/main.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start "C:/Users/Choaib ELMADI/Documents/D.I.F.Y/3. C - CPP Programming/7. Getting Started with CMake/build/CMakeFiles" 0
 .PHONY : CMakeFiles/main.dir/rule
@@ -124,7 +148,7 @@ main: CMakeFiles/main.dir/rule
 # codegen rule for target.
 CMakeFiles/main.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="C:/Users/Choaib ELMADI/Documents/D.I.F.Y/3. C - CPP Programming/7. Getting Started with CMake/build/CMakeFiles" --progress-num=1,2 "Finished codegen for target main"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="C:/Users/Choaib ELMADI/Documents/D.I.F.Y/3. C - CPP Programming/7. Getting Started with CMake/build/CMakeFiles" --progress-num=4,5 "Finished codegen for target main"
 .PHONY : CMakeFiles/main.dir/codegen
 
 # clean rule for target.
@@ -133,13 +157,45 @@ CMakeFiles/main.dir/clean:
 .PHONY : CMakeFiles/main.dir/clean
 
 #=============================================================================
+# Target rules for target fmt/CMakeFiles/fmt.dir
+
+# All Build rule for target.
+fmt/CMakeFiles/fmt.dir/all:
+	$(MAKE) $(MAKESILENT) -f fmt/CMakeFiles/fmt.dir/build.make fmt/CMakeFiles/fmt.dir/depend
+	$(MAKE) $(MAKESILENT) -f fmt/CMakeFiles/fmt.dir/build.make fmt/CMakeFiles/fmt.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="C:/Users/Choaib ELMADI/Documents/D.I.F.Y/3. C - CPP Programming/7. Getting Started with CMake/build/CMakeFiles" --progress-num=1,2,3 "Built target fmt"
+.PHONY : fmt/CMakeFiles/fmt.dir/all
+
+# Build rule for subdir invocation for target.
+fmt/CMakeFiles/fmt.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start "C:/Users/Choaib ELMADI/Documents/D.I.F.Y/3. C - CPP Programming/7. Getting Started with CMake/build/CMakeFiles" 3
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 fmt/CMakeFiles/fmt.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start "C:/Users/Choaib ELMADI/Documents/D.I.F.Y/3. C - CPP Programming/7. Getting Started with CMake/build/CMakeFiles" 0
+.PHONY : fmt/CMakeFiles/fmt.dir/rule
+
+# Convenience name for target.
+fmt: fmt/CMakeFiles/fmt.dir/rule
+.PHONY : fmt
+
+# codegen rule for target.
+fmt/CMakeFiles/fmt.dir/codegen:
+	$(MAKE) $(MAKESILENT) -f fmt/CMakeFiles/fmt.dir/build.make fmt/CMakeFiles/fmt.dir/codegen
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="C:/Users/Choaib ELMADI/Documents/D.I.F.Y/3. C - CPP Programming/7. Getting Started with CMake/build/CMakeFiles" --progress-num=1,2,3 "Finished codegen for target fmt"
+.PHONY : fmt/CMakeFiles/fmt.dir/codegen
+
+# clean rule for target.
+fmt/CMakeFiles/fmt.dir/clean:
+	$(MAKE) $(MAKESILENT) -f fmt/CMakeFiles/fmt.dir/build.make fmt/CMakeFiles/fmt.dir/clean
+.PHONY : fmt/CMakeFiles/fmt.dir/clean
+
+#=============================================================================
 # Target rules for target lib/CMakeFiles/mylib.dir
 
 # All Build rule for target.
 lib/CMakeFiles/mylib.dir/all:
 	$(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mylib.dir/build.make lib/CMakeFiles/mylib.dir/depend
 	$(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mylib.dir/build.make lib/CMakeFiles/mylib.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="C:/Users/Choaib ELMADI/Documents/D.I.F.Y/3. C - CPP Programming/7. Getting Started with CMake/build/CMakeFiles" --progress-num=3,4 "Built target mylib"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="C:/Users/Choaib ELMADI/Documents/D.I.F.Y/3. C - CPP Programming/7. Getting Started with CMake/build/CMakeFiles" --progress-num=6,7 "Built target mylib"
 .PHONY : lib/CMakeFiles/mylib.dir/all
 
 # Build rule for subdir invocation for target.
@@ -156,7 +212,7 @@ mylib: lib/CMakeFiles/mylib.dir/rule
 # codegen rule for target.
 lib/CMakeFiles/mylib.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mylib.dir/build.make lib/CMakeFiles/mylib.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="C:/Users/Choaib ELMADI/Documents/D.I.F.Y/3. C - CPP Programming/7. Getting Started with CMake/build/CMakeFiles" --progress-num=3,4 "Finished codegen for target mylib"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="C:/Users/Choaib ELMADI/Documents/D.I.F.Y/3. C - CPP Programming/7. Getting Started with CMake/build/CMakeFiles" --progress-num=6,7 "Finished codegen for target mylib"
 .PHONY : lib/CMakeFiles/mylib.dir/codegen
 
 # clean rule for target.
