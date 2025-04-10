@@ -1,25 +1,25 @@
 [
 {
   "directory": "C:/Users/Choaib ELMADI/Documents/D.I.F.Y/3. C - CPP Programming/7. Getting Started with CMake/build",
-  "command": "C:/msys64/mingw64/bin/g++.exe  @CMakeFiles/main.dir/includes_CXX.rsp -g -o CMakeFiles/main.dir/main.cpp.obj -c \"C:/Users/Choaib ELMADI/Documents/D.I.F.Y/3. C - CPP Programming/7. Getting Started with CMake/main.cpp\"",
+  "command": "C:/msys64/mingw64/bin/g++.exe  @CMakeFiles/main.dir/includes_CXX.rsp -g -std=gnu++20 -o CMakeFiles/main.dir/main.cpp.obj -c \"C:/Users/Choaib ELMADI/Documents/D.I.F.Y/3. C - CPP Programming/7. Getting Started with CMake/main.cpp\"",
   "file": "C:/Users/Choaib ELMADI/Documents/D.I.F.Y/3. C - CPP Programming/7. Getting Started with CMake/main.cpp",
   "output": "CMakeFiles/main.dir/main.cpp.obj"
 },
 {
   "directory": "C:/Users/Choaib ELMADI/Documents/D.I.F.Y/3. C - CPP Programming/7. Getting Started with CMake/build/fmt",
-  "command": "C:/msys64/mingw64/bin/g++.exe  @CMakeFiles/fmt.dir/includes_CXX.rsp -g -o CMakeFiles/fmt.dir/src/format.cc.obj -c \"C:/Users/Choaib ELMADI/Documents/D.I.F.Y/3. C - CPP Programming/7. Getting Started with CMake/fmt/src/format.cc\"",
+  "command": "C:/msys64/mingw64/bin/g++.exe  @CMakeFiles/fmt.dir/includes_CXX.rsp -g -std=gnu++20 -o CMakeFiles/fmt.dir/src/format.cc.obj -c \"C:/Users/Choaib ELMADI/Documents/D.I.F.Y/3. C - CPP Programming/7. Getting Started with CMake/fmt/src/format.cc\"",
   "file": "C:/Users/Choaib ELMADI/Documents/D.I.F.Y/3. C - CPP Programming/7. Getting Started with CMake/fmt/src/format.cc",
   "output": "fmt/CMakeFiles/fmt.dir/src/format.cc.obj"
 },
 {
   "directory": "C:/Users/Choaib ELMADI/Documents/D.I.F.Y/3. C - CPP Programming/7. Getting Started with CMake/build/fmt",
-  "command": "C:/msys64/mingw64/bin/g++.exe  @CMakeFiles/fmt.dir/includes_CXX.rsp -g -o CMakeFiles/fmt.dir/src/os.cc.obj -c \"C:/Users/Choaib ELMADI/Documents/D.I.F.Y/3. C - CPP Programming/7. Getting Started with CMake/fmt/src/os.cc\"",
+  "command": "C:/msys64/mingw64/bin/g++.exe  @CMakeFiles/fmt.dir/includes_CXX.rsp -g -std=gnu++20 -o CMakeFiles/fmt.dir/src/os.cc.obj -c \"C:/Users/Choaib ELMADI/Documents/D.I.F.Y/3. C - CPP Programming/7. Getting Started with CMake/fmt/src/os.cc\"",
   "file": "C:/Users/Choaib ELMADI/Documents/D.I.F.Y/3. C - CPP Programming/7. Getting Started with CMake/fmt/src/os.cc",
   "output": "fmt/CMakeFiles/fmt.dir/src/os.cc.obj"
 },
 {
   "directory": "C:/Users/Choaib ELMADI/Documents/D.I.F.Y/3. C - CPP Programming/7. Getting Started with CMake/build/lib",
-  "command": "C:/msys64/mingw64/bin/g++.exe   -g -o CMakeFiles/mylib.dir/lib.cpp.obj -c \"C:/Users/Choaib ELMADI/Documents/D.I.F.Y/3. C - CPP Programming/7. Getting Started with CMake/lib/lib.cpp\"",
+  "command": "C:/msys64/mingw64/bin/g++.exe   -g -std=gnu++20 -o CMakeFiles/mylib.dir/lib.cpp.obj -c \"C:/Users/Choaib ELMADI/Documents/D.I.F.Y/3. C - CPP Programming/7. Getting Started with CMake/lib/lib.cpp\"",
   "file": "C:/Users/Choaib ELMADI/Documents/D.I.F.Y/3. C - CPP Programming/7. Getting Started with CMake/lib/lib.cpp",
   "output": "lib/CMakeFiles/mylib.dir/lib.cpp.obj"
 }
