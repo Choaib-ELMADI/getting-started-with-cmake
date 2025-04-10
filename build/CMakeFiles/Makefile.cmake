@@ -44,6 +44,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "CMakeFiles/4.0.0/CMakeCXXCompiler.cmake"
   "CMakeFiles/4.0.0/CMakeRCCompiler.cmake"
   "CMakeFiles/4.0.0/CMakeSystem.cmake"
+  "C:/Users/Choaib ELMADI/Documents/D.I.F.Y/3. C - CPP Programming/7. Getting Started with CMake/lib/CMakeLists.txt"
   )
 
 # The corresponding makefile is:
@@ -55,10 +56,11 @@ set(CMAKE_MAKEFILE_OUTPUTS
 # Byproducts of CMake generate step:
 set(CMAKE_MAKEFILE_PRODUCTS
   "CMakeFiles/CMakeDirectoryInformation.cmake"
+  "lib/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/main.dir/DependInfo.cmake"
-  "CMakeFiles/mylib.dir/DependInfo.cmake"
+  "lib/CMakeFiles/mylib.dir/DependInfo.cmake"
   )

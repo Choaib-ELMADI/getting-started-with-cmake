@@ -1,3 +1,11 @@
 1. Using Project Libraries:
     . Linking our executable with its libraries is an important thing to do.
     . It's done using the command: target_link_libraries(${PROJECT_NAME} my_lib_name)
+
+2. Using Libraries in Sub-directories:
+    . A commun approach is to create a 'lib' directory for libraries.
+    . Inside this lib directory, create a CMakeLists.txt file that contains:
+        - add_library(my_lib_name lib.cpp)
+        - target_include_directories(my_lib_name PRIVATE/PUBLIC/INTERFACE ${CMAKE_CURRENT_SOURCE_DIR})
+    . The main CMakeLists.txt file needs to include this command:
+        - add_subdirectory(lib)

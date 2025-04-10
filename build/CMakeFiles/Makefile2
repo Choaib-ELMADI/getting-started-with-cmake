@@ -64,28 +64,47 @@ CMAKE_BINARY_DIR = "C:/Users/Choaib ELMADI/Documents/D.I.F.Y/3. C - CPP Programm
 
 # The main recursive "all" target.
 all: CMakeFiles/main.dir/all
-all: CMakeFiles/mylib.dir/all
+all: lib/all
 .PHONY : all
 
 # The main recursive "codegen" target.
 codegen: CMakeFiles/main.dir/codegen
-codegen: CMakeFiles/mylib.dir/codegen
+codegen: lib/codegen
 .PHONY : codegen
 
 # The main recursive "preinstall" target.
-preinstall:
+preinstall: lib/preinstall
 .PHONY : preinstall
 
 # The main recursive "clean" target.
 clean: CMakeFiles/main.dir/clean
-clean: CMakeFiles/mylib.dir/clean
+clean: lib/clean
 .PHONY : clean
+
+#=============================================================================
+# Directory level rules for directory lib
+
+# Recursive "all" directory target.
+lib/all: lib/CMakeFiles/mylib.dir/all
+.PHONY : lib/all
+
+# Recursive "codegen" directory target.
+lib/codegen: lib/CMakeFiles/mylib.dir/codegen
+.PHONY : lib/codegen
+
+# Recursive "preinstall" directory target.
+lib/preinstall:
+.PHONY : lib/preinstall
+
+# Recursive "clean" directory target.
+lib/clean: lib/CMakeFiles/mylib.dir/clean
+.PHONY : lib/clean
 
 #=============================================================================
 # Target rules for target CMakeFiles/main.dir
 
 # All Build rule for target.
-CMakeFiles/main.dir/all: CMakeFiles/mylib.dir/all
+CMakeFiles/main.dir/all: lib/CMakeFiles/mylib.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="C:/Users/Choaib ELMADI/Documents/D.I.F.Y/3. C - CPP Programming/7. Getting Started with CMake/build/CMakeFiles" --progress-num=1,2 "Built target main"
@@ -114,36 +133,36 @@ CMakeFiles/main.dir/clean:
 .PHONY : CMakeFiles/main.dir/clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/mylib.dir
+# Target rules for target lib/CMakeFiles/mylib.dir
 
 # All Build rule for target.
-CMakeFiles/mylib.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/mylib.dir/build.make CMakeFiles/mylib.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/mylib.dir/build.make CMakeFiles/mylib.dir/build
+lib/CMakeFiles/mylib.dir/all:
+	$(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mylib.dir/build.make lib/CMakeFiles/mylib.dir/depend
+	$(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mylib.dir/build.make lib/CMakeFiles/mylib.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="C:/Users/Choaib ELMADI/Documents/D.I.F.Y/3. C - CPP Programming/7. Getting Started with CMake/build/CMakeFiles" --progress-num=3,4 "Built target mylib"
-.PHONY : CMakeFiles/mylib.dir/all
+.PHONY : lib/CMakeFiles/mylib.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/mylib.dir/rule: cmake_check_build_system
+lib/CMakeFiles/mylib.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start "C:/Users/Choaib ELMADI/Documents/D.I.F.Y/3. C - CPP Programming/7. Getting Started with CMake/build/CMakeFiles" 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/mylib.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lib/CMakeFiles/mylib.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start "C:/Users/Choaib ELMADI/Documents/D.I.F.Y/3. C - CPP Programming/7. Getting Started with CMake/build/CMakeFiles" 0
-.PHONY : CMakeFiles/mylib.dir/rule
+.PHONY : lib/CMakeFiles/mylib.dir/rule
 
 # Convenience name for target.
-mylib: CMakeFiles/mylib.dir/rule
+mylib: lib/CMakeFiles/mylib.dir/rule
 .PHONY : mylib
 
 # codegen rule for target.
-CMakeFiles/mylib.dir/codegen:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/mylib.dir/build.make CMakeFiles/mylib.dir/codegen
+lib/CMakeFiles/mylib.dir/codegen:
+	$(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mylib.dir/build.make lib/CMakeFiles/mylib.dir/codegen
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="C:/Users/Choaib ELMADI/Documents/D.I.F.Y/3. C - CPP Programming/7. Getting Started with CMake/build/CMakeFiles" --progress-num=3,4 "Finished codegen for target mylib"
-.PHONY : CMakeFiles/mylib.dir/codegen
+.PHONY : lib/CMakeFiles/mylib.dir/codegen
 
 # clean rule for target.
-CMakeFiles/mylib.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/mylib.dir/build.make CMakeFiles/mylib.dir/clean
-.PHONY : CMakeFiles/mylib.dir/clean
+lib/CMakeFiles/mylib.dir/clean:
+	$(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mylib.dir/build.make lib/CMakeFiles/mylib.dir/clean
+.PHONY : lib/CMakeFiles/mylib.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.
